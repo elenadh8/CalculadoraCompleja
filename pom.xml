@@ -3,4 +3,19 @@
   <groupId>dad.calculadoracompleja</groupId>
   <artifactId>calculadoracompleja</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+   <properties>
+        <maven.compiler.target>11</maven.compiler.target>
+        <maven.compiler.source>11</maven.compiler.source>
+    <exec.mainClass>calculadoracompleja.Main</exec.mainClass>
+<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-fxml</artifactId>
+            <version>11.0.1</version>
+        </dependency>
+    </dependencies>
 </project>
